@@ -1,4 +1,4 @@
-import { Children, useState } from "react"
+import { useState } from "react"
 
 export const Component = ({children}) => {
     const [isExpanded, setIsExpanded] = useState(false)

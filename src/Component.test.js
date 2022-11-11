@@ -1,5 +1,4 @@
 import { render, screen } from "@testing-library/react";
-import { expect, it } from "vitest";
 import { Component } from "./Component";
 
 it('should not render content', () => {
